@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=KIOSK
+Icon=python3
+Type=Application
+Exec=gnome-terminal -- bash -l -c "source ./alias_settings.sh; cd ~/git_ws/aris-repo-4; python3 gui/main/main.py; exec bash"
+Terminal=true

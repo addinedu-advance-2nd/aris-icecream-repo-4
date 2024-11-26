@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Vision
+Icon=python3
+Type=Application
+Exec=gnome-terminal -- bash -c "source ./alias_settings.sh; cd ~/git_ws/aris-repo-4; python3 vision/job/vision_main.py; exec bash"
+Terminal=true

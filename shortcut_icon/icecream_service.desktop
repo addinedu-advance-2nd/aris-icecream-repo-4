@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Icecream
+Icon=python3
+Type=Application
+Exec=gnome-terminal -- bash -c "source ./alias_settings.sh; cd ~/git_ws/aris-repo-4; ros2 launch robotarm_control_package icecream.launch.py; exec bash"
+Terminal=true
